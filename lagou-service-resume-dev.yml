@@ -1,0 +1,8 @@
+server:
+  port: 9006
+eureka:
+  client:
+    service-url:
+      defaultZone: http://LagouCloudEurekaServerB:8763/eureka,http://LagouCloudEurekaServerA:8762/eureka/
+  instance:
+    prefer-ip-address: true
