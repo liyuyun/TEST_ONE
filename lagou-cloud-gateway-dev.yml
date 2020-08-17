@@ -5,5 +5,5 @@ spring:
     password: root
 lagouwork:
   limit:
-    time-lenth: 2
-    visit-times: 5
+    time-lenth: 21
+    visit-times: 51
